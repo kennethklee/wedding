@@ -1,0 +1,67 @@
+@font-face {
+	font-family: Cloooud;
+	src: url("/media/font/CLOOA___.eot"); /* EOT file for IE */
+}
+
+@font-face {
+	font-family: Cloooud;
+	src: url("/media/font/CLOOA___.TTF"); /* TTF file for CSS3 browsers */
+}
+
+#container {
+	/*background-color: #EEEEEE;*/
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+}
+
+svg {
+	margin-bottom: -3px;
+}
+
+h2 {
+	top: 46px;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	background-image: -webkit-gradient(linear, 0% 100%%, 100%% 100%, from(#121b19), to(#121b19), color-stop(50%,#414a4a));
+	background-repeat: no-repeat;
+	font-size: 24px;
+	font-weight: 700,
+	text-shadow: #ddd 0px 1px 3px;
+	white-space: nowrap;
+}
+
+.ieContainer {
+	text-align: left;
+	margin: 10px;
+}
+
+.ieContainer h1 {
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	background-image: -webkit-gradient(linear, 0% 100%%, 100%% 100%, from(#121b19), to(#121b19), color-stop(50%,#414a4a));
+	background-repeat: no-repeat;
+	font-size: 32px;
+	font-weight: 700,
+	text-shadow: #ddd 0px 1px 3px;
+	white-space: nowrap;
+}
+
+.ieContainer p {
+	
+}
+.footerText {
+	text-align: left;
+	color: black;
+	text-decoration: none;
+	line-height: 32px;
+	margin-left: 4px;
+}
+
+a.footerText:hover {
+	color: pink;
+}
